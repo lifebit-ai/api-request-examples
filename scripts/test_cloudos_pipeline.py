@@ -7,7 +7,6 @@ depends on:
 > argparse==1.1
 > json==2.0.9
 > requests==2.21.0
-> time
 > run_cloudos_job.py
 """
 
@@ -24,7 +23,6 @@ def send_job_requests_to_cloudos(inputs):
         if job_id:
             print("Job successfully sent to CloudOS. You can check the status " +
                 "of the job in https://cloudos.lifebit.ai/app/jobs/{}".format(job_id))
-        time.sleep(2)
 
 
 def load_inputs(json_inputs_path):
@@ -62,9 +60,6 @@ if __name__ == "__main__":
     job_name = args.job_name
     json_inputs_path = args.json_inputs_path
     job_name_prefix = args.job_name_prefix
-
-    print ("(apikey, team_id, cloudos_url, project_id, workflow_id, workflow_flag, instance_type, instance_disk_space, job_name)")
-    print (apikey, team_id, cloudos_url, project_id, workflow_id, workflow_flag, instance_type, instance_disk_space, job_name)
 
     inputs = load_inputs(json_inputs_path)
 
