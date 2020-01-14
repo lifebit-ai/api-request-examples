@@ -2,7 +2,7 @@
   "23andme_male": "s3://lifebit-featured-datasets/modules/beagle5/test/8982.23andme.7325",
   "23andme_male_old_zip": "s3://lifebit-featured-datasets/modules/beagle5/test/1.23andme.9.zip",
   "23andme_female": "s3://lifebit-featured-datasets/modules/beagle5/test/9135.23andme.7478",
-	"ancestry": "s3://lifebit-featured-datasets/modules/beagle5/test/9135.23andme.7478",
+  "ancestry": "s3://lifebit-featured-datasets/modules/beagle5/test/9135.23andme.7478",
   "ftdna": "s3://lifebit-featured-datasets/modules/beagle5/test/9144.ftdna-illumina.7484",
   "myheritage": "s3://lifebit-featured-datasets/modules/beagle5/test/MyHeritage.txt",
   "vcf_b37": "s3://lifebit-featured-datasets/modules/beagle5/test/FR07961001.pass.recode.subsampled.vcf",
