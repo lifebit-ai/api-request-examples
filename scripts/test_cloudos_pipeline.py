@@ -8,6 +8,7 @@ depends on:
 > json==2.0.9
 > requests==2.21.0
 > run_cloudos_job.py
+> time
 """
 
 import argparse
@@ -23,6 +24,7 @@ def send_job_requests_to_cloudos(inputs):
         if job_id:
             print("Job successfully sent to CloudOS. You can check the status " +
                 "of the job in https://cloudos.lifebit.ai/app/jobs/{}".format(job_id))
+        time.sleep(2)
 
 
 def load_inputs(json_inputs_path):
