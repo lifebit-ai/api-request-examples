@@ -15,7 +15,7 @@ pip install -r requirements.txt # install requirements
 
 Submit job to CloudOS via the API.
 
-*Please note that currently this script can only run for pipelines which require a single input file on S3.*
+*Please note that currently this script can only run for pipelines which require a single input file on S3 using AWS cloud.*
 
 ### Run script
 ```bash
