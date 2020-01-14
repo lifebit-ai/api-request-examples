@@ -2,6 +2,8 @@
 
 The following contains two python scripts which can be used to submit jobs to CloudOS via the API. Either a single job can be submitted (with `run_cloudos_job.py`) or multiple jobs with different input parameters (using `test_cloudos_pipeline.py`).
 
+![multiple_api_jobs](https://raw.githubusercontent.com/lifebit-ai/images/master/api-jobs/multiple_api_jobs.gif)
+
 ### Install dependencies
 ```python
 python3 -m venv .venv # create virtual env
